@@ -1,0 +1,63 @@
+.card {
+  width: 256px;
+  height: 450px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* padding: 0 0 32px 40px; */
+}
+
+.card:hover .card__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--color-black);
+}
+
+.card-text {
+  width: 85%;
+}
+
+.deep-earth {
+  background: url("../../../assets/desktop/image-deep-earth.jpg") no-repeat
+    center;
+}
+
+.night-arcade {
+  background: url("../../../assets/desktop/image-night-arcade.jpg") no-repeat
+    center;
+}
+
+.soccer-team {
+  background: url("../../../assets/desktop/image-soccer-team.jpg") no-repeat
+    center;
+}
+
+.the-grid {
+  background: url("../../../assets/desktop/image-grid.jpg") no-repeat center;
+}
+
+.from-above {
+  background: url("../../../assets/desktop/image-from-above.jpg") no-repeat
+    center;
+}
+
+.pocket-borealis {
+  background: url("../../../assets/desktop/image-pocket-borealis.jpg") no-repeat
+    center;
+}
+
+.the-curiosity {
+  background: url("../../../assets/desktop/image-curiosity.jpg") no-repeat
+    center;
+}
+
+.fisheye {
+  background: url("../../../assets/desktop/image-fisheye.jpg") no-repeat center;
+}

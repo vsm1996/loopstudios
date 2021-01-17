@@ -1,0 +1,43 @@
+.header-container {
+  background: url(../../assets/desktop/image-hero.jpg) rgba(0, 0, 0, 0.4)
+    no-repeat center;
+  background-blend-mode: multiply;
+  height: 650px;
+  padding: 3rem 10rem;
+
+  color: var(--color-white);
+}
+
+.header {
+  border: 0.5px solid var(--color-white);
+  padding: 2.5rem;
+  width: 650px;
+  height: 278px;
+  margin-top: 8.125rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4.5rem;
+  line-height: 4.375rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-container {
+    background: url(../../assets/mobile/image-hero.jpg) rgba(0, 0, 0, 0.1)
+      no-repeat center;
+    height: 650px;
+  }
+  .header {
+    width: 327px;
+    height: 196px;
+    font-size: 40px;
+    line-height: 38px;
+    margin-top: 4.125rem;
+  }
+}
