@@ -15,6 +15,7 @@
 .features__pre {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-transform: uppercase;
 }
 
@@ -57,7 +58,6 @@
 
 @media only screen and (max-width: 1024px) {
   .features-grid {
-    margin-top: 5rem;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -67,8 +67,21 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  .features__pre {
+    flex-direction: column;
+    height: 150px;
+  }
+
   .features-grid {
-    margin-top: 5rem;
     grid-template-columns: 1fr;
   }
 }

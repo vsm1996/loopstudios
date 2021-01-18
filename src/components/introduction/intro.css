@@ -1,6 +1,6 @@
 .intro-container {
   text-align: left;
-  padding: 10rem 10rem;
+  margin: 10rem 10rem;
   position: relative;
 }
 
@@ -43,12 +43,12 @@
 
 @media only screen and (max-width: 700px) {
   .intro-container {
-    padding: 5rem;
+    margin: 5rem;
   }
 
   .intro {
     width: 279px;
-    height: 255px;
+    height: 100%;
   }
 
   .intro-photo {
