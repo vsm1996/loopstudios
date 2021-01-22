@@ -91,3 +91,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .features__heading {
+    font-size: 39px;
+  }
+}

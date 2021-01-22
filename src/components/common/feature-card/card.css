@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* padding: 0 0 32px 40px; */
+  padding: 0 0 32px 40px;
 }
 
 .card:hover .card__overlay {
@@ -113,5 +113,18 @@
 
   .fisheye {
     background: url("../../../assets/mobile/image-fisheye.jpg") no-repeat center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 400px;
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .card {
+    width: 310px;
   }
 }
