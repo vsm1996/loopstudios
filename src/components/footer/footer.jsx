@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../common/main-logo/logo';
-import Nav from '../common/nav/nav';
 
 import Facebook from '../../assets/icon-facebook.svg'
 import Instagram from '../../assets/icon-instagram.svg'
