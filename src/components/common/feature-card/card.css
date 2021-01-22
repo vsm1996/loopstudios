@@ -61,3 +61,57 @@
 .fisheye {
   background: url("../../../assets/desktop/image-fisheye.jpg") no-repeat center;
 }
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 450px;
+    height: 220px;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 2rem;
+    justify-content: initial;
+    align-items: center;
+  }
+
+  .card-text {
+    width: 77%;
+  }
+
+  .deep-earth {
+    background: url("../../../assets/mobile/image-deep-earth.jpg") no-repeat
+      center;
+  }
+
+  .night-arcade {
+    background: url("../../../assets/mobile/image-night-arcade.jpg") no-repeat
+      center;
+  }
+
+  .soccer-team {
+    background: url("../../../assets/mobile/image-soccer-team.jpg") no-repeat
+      center;
+  }
+
+  .the-grid {
+    background: url("../../../assets/mobile/image-grid.jpg") no-repeat center;
+  }
+
+  .from-above {
+    background: url("../../../assets/mobile/image-from-above.jpg") no-repeat
+      center;
+  }
+
+  .pocket-borealis {
+    background: url("../../../assets/mobile/image-pocket-borealis.jpg")
+      no-repeat center;
+  }
+
+  .the-curiosity {
+    background: url("../../../assets/mobile/image-curiosity.jpg") no-repeat
+      center;
+  }
+
+  .fisheye {
+    background: url("../../../assets/mobile/image-fisheye.jpg") no-repeat center;
+  }
+}
