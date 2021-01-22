@@ -41,9 +41,15 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
   .intro-container {
     margin: 5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-container {
+    margin: 3.25rem;
   }
 
   .intro {

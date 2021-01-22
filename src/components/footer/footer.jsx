@@ -14,7 +14,13 @@ const Footer = () => {
       <div className="left">
         <Logo />
         <div className="footer-nav">
-          <Nav />
+          <ul className="footer-nav__list">
+            <li className="footer-nav__item">About</li>
+            <li className="footer-nav__item">Careers</li>
+            <li className="footer-nav__item">Events</li>
+            <li className="footer-nav__item">Products</li>
+            <li className="footer-nav__item">Support</li>
+          </ul>
         </div>
       </div>
 

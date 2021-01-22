@@ -14,6 +14,25 @@
   border-bottom: 1px solid white;
 }
 
+.navicon-open {
+  display: none;
+  width: 24px;
+  height: auto;
+}
+.navicon-close {
+  display: none;
+  width: 18px;
+  height: 18px;
+}
+
+.show {
+  display: contents;
+}
+
+.hide {
+  display: none;
+}
+
 @keyframes hover-border {
   0% {
     border: none;
@@ -25,9 +44,11 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .navicon-open,
+  .navicon-close {
+    display: initial;
+  }
   .nav {
-    flex-direction: column;
-    align-items: center;
     display: none;
   }
 }
