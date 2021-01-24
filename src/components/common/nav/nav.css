@@ -9,6 +9,7 @@
   text-decoration: none;
   padding: 0 0 0.5rem 0;
   margin: 0 1rem;
+  border-bottom: 1px solid transparent;
 }
 .nav-item:hover {
   border-bottom: 1px solid white;
@@ -23,24 +24,6 @@
   display: none;
   width: 18px;
   height: 18px;
-}
-
-.show {
-  display: contents;
-}
-
-.hide {
-  display: none;
-}
-
-@keyframes hover-border {
-  0% {
-    border: none;
-  }
-
-  100% {
-    border-bottom: 1px solid white;
-  }
 }
 
 @media only screen and (max-width: 700px) {

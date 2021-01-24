@@ -7,7 +7,7 @@ import './modal-nav.css'
 const ModalNav = ({ handleToggle, toggle }) => {
 
   return (
-    <div className={toggle === true ? 'modal show' : 'modal hide'}>
+    <div className={toggle === true ? 'show' : 'hide'}>
       <ul className="modal__nav">
         <div className="modal__func">
           <Logo />
